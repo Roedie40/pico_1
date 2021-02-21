@@ -3,6 +3,7 @@ from utime import sleep
 
 x=0.2  # Display time
 
+# Pin setup
 on = Pin(25, Pin.OUT)  #      ###a### 
 a = Pin(12, Pin.OUT)   #      #     # 
 b = Pin(13, Pin.OUT)   #      f     b
@@ -15,14 +16,14 @@ g = Pin(18, Pin.OUT)   #      #     #
 # all segments off            
 digit = [a, b, c, d, e, f, g]
 for segment in digit:
-    segment.value(1)
+    segment.value(1) # segemt off
 
 # onboard led on
 on.value(1)
 
-# sequence of numbers
+# sequence of numbers to count to nine
 ciphers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-print(type(ciphers))
+
 for cipher in ciphers:
     if cipher == 0: digit = [a, b, c, d, e, f, ]  
     if cipher == 1: digit = [b, c]
@@ -36,7 +37,7 @@ for cipher in ciphers:
     if cipher == 9: digit = [a, b, c, f, g] 
 
     for segment in digit:
-        segment.value(0)
+        segment.value(0) # segment on
         
     # Display time    
     sleep(x)
@@ -44,7 +45,7 @@ for cipher in ciphers:
     # all segments off   
     digit = [a, b, c, d, e, f, g]
     for segment in digit:
-        segment.value(1)
+        segment.value(1) # segment off
         
 # onboard led on
-on.value(0)
+on.value(0) 
