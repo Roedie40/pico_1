@@ -4,7 +4,7 @@
  
 # Pin setup
 on = Pin(25, Pin.OUT)  onboard led
-a = Pin(12, Pin.OUT)   
+a = Pin(12, Pin.OUT)
 b = Pin(13, Pin.OUT)   
 c = Pin(14, Pin.OUT)   
 d = Pin(15, Pin.OUT)   
