@@ -31,6 +31,8 @@ gnd
 for the Display TM1637  
 clk pin 16  
 dio pin 17  
+gnd   
+5v  
 
 
 
