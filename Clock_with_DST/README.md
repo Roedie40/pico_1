@@ -22,7 +22,7 @@ tm1637.py     Display
 
 -------------------------------------------------------------------------------------
 **PIN setup**  
-for the Real Time Clock DS3231
+for the Real Time Clock DS3231  
 sda pin 12  
 slc pin 13  
 vcc  
