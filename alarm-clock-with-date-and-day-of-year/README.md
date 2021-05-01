@@ -17,12 +17,12 @@ ds3231_i2c.py RTC
 tm1637.py     Display  
 
 -------------------------------------------------------------------------------------
-**Other files:**
-main.py
-dayofyear.py
-alarm.txt (saved alarm time)
-rpi-pico_alarm_clock.pdf (fritzing chart)
-
+**Other files:**   
+main.py    
+dayofyear.py    
+alarm.txt (saved alarm time)   
+rpi-pico_alarm_clock.pdf (fritzing chart)   
+    
 -------------------------------------------------------------------------------------
 **How to use the alarm clock**
 In time mode
