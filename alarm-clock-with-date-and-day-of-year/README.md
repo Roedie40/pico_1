@@ -1,4 +1,4 @@
-# Real Time Clock with Daylight Saving Time, date and day of year  #
+# Real Time Clock with Daylight Saving Time, alarm, date and day of year  #
 (for EU member states) 
 
 **Simple Driver for the DS3231 and the basic for manual-setup.py.**      
