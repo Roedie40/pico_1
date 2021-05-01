@@ -24,18 +24,17 @@ alarm.txt (saved alarm time)
 rpi-pico_alarm_clock.pdf (fritzing chart)   
     
 -------------------------------------------------------------------------------------
-**How to use the alarm clock**
-In time mode
-button1 set alarm
-button2 day and month
-buttun3 day of year
-button4 alarm off (if it was on)
-
-
-In set alarm mode
-button2 setting hours
-button3 setting minutes
-button4 set alarm on/off (see led onboard)
+**How to use the alarm clock**   
+In time mode   
+button1 set alarm    
+button2 day and month   
+buttun3 day of year    
+button4 alarm off (if it was on)   
+  
+In set alarm mode  
+button2 setting hours  
+button3 setting minutes  
+button4 set alarm on/off (see led onboard)  
 
 
 
